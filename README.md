@@ -26,4 +26,4 @@ Low presure in tires can be displayed either using indirect TPMS or direct TPMS.
 Garmin Tire pressure monitoring sensors are available at $70 per unit. 
 
 # Differentiator: 
-Our proposed solution will provide the benefits of both modern hardware and software technologies. Our application will take data from the server and alert the user when the pressure drops below the limit. 
+Our proposed solution will provide the benefits of both modern hardware and software technologies at a resonable cost. Our application will take data from the server and alert the user when the pressure drops below the limit. 
