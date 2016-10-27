@@ -1,5 +1,6 @@
 # Fall16Team-1
-# TPMS - CMPE 272 GROUP PROJECT UNDER THE GUIDANCE OF PROF.RAKESH RANJAN Tire Pressure Monitoring System using Internet Of Things.
+# TPMS - CMPE 272 GROUP PROJECT UNDER THE GUIDANCE OF PROF.RAKESH RANJAN
+Tire Pressure Monitoring System using Internet Of Things.
 
 Team no. 1
 Team Members: Aishwarya Keerty
