@@ -49,16 +49,20 @@ Gender : Male/Female
 Primary Goal : Depending on the notification received for inappropriate tyre pressure,take proper action.
 
 
-#User Story 1 : As a car driver, I can register and then login to the mobile application to receive notification at proper time and thus avoid accidents.
+#User Story 1 : 
+As a car driver, I can register and then login to the mobile application to receive notification at proper time and thus avoid accidents.
 
 
-#User Story 2 : As a car driver, I can receive notifications for lower tyre pressure and take appropriate action for the tyre.
+#User Story 2 : 
+As a car driver, I can receive notifications for lower tyre pressure and take appropriate action for the tyre.
 
 
-#User Story 3 : As a car owner, I can register and then login to the application to receive and track notifications to notify the car driver.
+#User Story 3 : 
+As a car owner, I can register and then login to the application to receive and track notifications to notify the car driver.
 
 
-#User Story 4 : As a car owner, I can receive notifications for lower tyre pressure and inform and instruct the driver to take proper action outside the system.
+#User Story 4 : 
+As a car owner, I can receive notifications for lower tyre pressure and inform and instruct the driver to take proper action outside the system.
 
 
 
