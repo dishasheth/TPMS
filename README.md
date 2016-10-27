@@ -4,8 +4,8 @@ Tire Pressure Monitoring System using Internet Of Things.
 
 Team no. 1
 Team Members: Aishwarya Keerty
-BhavanKumarPandya 
-HarshMehta
+Bhavankumar Pandya 
+Harsh Mehta
 Disha Sheth
 
 Technology Stack:
