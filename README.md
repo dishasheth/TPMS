@@ -10,8 +10,8 @@ Aishwarya Keerty
 Bhavankumar Pandya 
 
 #PROJECT DELIVERABLES
-1) [Project Presentation]()
-2) [Project Report]()
+1) [Project Presentation](https://github.com/SJSU272Lab/TPMS/blob/master/Project%20presentation)
+2) [Project Report](https://github.com/SJSU272Lab/TPMS/blob/master/Project%20report)
 
 #Abstract: 
 Tyre Pressure Monitoring System are safety devices installed to warn the user that atleast one or more tyres are either under or over inflated. The Transportation Recall Enhancement, Accountability, and Documentation Act dictates that vehicles in United States must include a tyre pressure monitoring system of some kind. There has been a constant surge in accidents due to uncertainty about the tyre pressure. Therefore, to  address this problem, we are proposing a simple, economic and practical solution in the form of a mobile application which alerts the user when the pressure goes down the permissible limit. This can be achieved using Sensor Technology and IOT.
@@ -109,19 +109,195 @@ We have used AWS RD5 service for storing the user database.
 Tables
 
 - User_master
-Column nametypelengthconstraintuser_idint11Primary keyuser_fnameVarchar255 nouser_lnameVarchar255nouser_statusVarchar255noNUMBER_SENSORsVarchar255nouser_emailVarchar255nouser_passwordVarchar255nophoneVarchar255noAddressVarchar255nocityVarchar255nozipcodeVarchar255nostateVarchar255nouser_typeVarchar255nocreation_datetimestampcurrent_timestampnolast_login_datetimestampnullno
+Column name
+type
+length
+constraint
+user_id
+int
+11
+Primary key
+user_fname
+Varchar
+255 
+no
+user_lname
+Varchar
+255
+no
+user_status
+Varchar
+255
+no
+NUMBER_SENSORs
+Varchar
+255
+no
+user_email
+Varchar
+255
+no
+user_password
+Varchar
+255
+no
+phone
+Varchar
+255
+no
+Address
+Varchar
+255
+no
+city
+Varchar
+255
+no
+zipcode
+Varchar
+255
+no
+state
+Varchar
+255
+no
+user_type
+Varchar
+255
+no
+creation_date
+timestamp
+current_timestamp
+no
+last_login_date
+timestamp
+null
+no
+
 - Sensor_master
 
-Column nametypelengthconstraintsensor_idvarchar255primary_keyuser_idint11foreign_keylatitudevarchar255nolongitudevarchar255nosensor_statusvarchar255nopublic_ipvarchar255noprivate_ipvarchar255nocreation_datetimestampnullnosensor_tag_keyvarchar255nosensor_tag_namevarchar255nosensor_tag_valuevarchar255nohub_idvarchar255no
+Column name
+type
+length
+constraint
+sensor_id
+varchar
+255
+primary_key
+user_id
+int
+11
+foreign_key
+latitude
+varchar
+255
+no
+longitude
+varchar
+255
+no
+sensor_status
+varchar
+255
+no
+public_ip
+varchar
+255
+no
+private_ip
+varchar
+255
+no
+creation_date
+timestamp
+null
+no
+sensor_tag_key
+varchar
+255
+no
+sensor_tag_name
+varchar
+255
+no
+sensor_tag_value
+varchar
+255
+no
+hub_id
+varchar
+255
+no
+
 - Hub_master
 
-Column nametypelengthconstrainthub_idint11primary_keyno_of_serverInt 11nohub_statusvarchar255nocpu_utilizationvarchar255no
+Column name
+type
+length
+constraint
+hub_id
+int
+11
+primary_key
+no_of_server
+Int 
+11
+no
+hub_status
+varchar
+255
+no
+cpu_utilization
+varchar
+255
+no
+
 - Temp_data
 
-Column nameType lengthconstraintsensor_idvarchar255Foreign keytempint11nosensor_tag_valuevarchar255nosensor_statusvarchar255notime_stamptimestampnullnouser_idvarchar255no
+Column name
+Type 
+length
+constraint
+sensor_id
+varchar
+255
+Foreign key
+temp
+int
+11
+no
+sensor_tag_value
+varchar
+255
+no
+sensor_status
+varchar
+255
+no
+time_stamp
+timestamp
+null
+no
+user_id
+varchar
+255
+no
+
 - Utilization
 
-sensor_idvarchar255Foreign keycput_dataint11nodatetimestampnullno
+sensor_id
+varchar
+255
+Foreign key
+cput_data
+int
+11
+no
+date
+timestamp
+null
+no
+
 
 
 
